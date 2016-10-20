@@ -107,13 +107,13 @@ public class Player extends People {
             else
                 noError = makeBet(wager);
 
-            if (!noError){
-                System.out.println();
-                System.out.println("请重新输入");
-                System.out.println();
-            }
             // 假装是清屏233333
             System.out.print("\n\n\n\n\n\n\n\n");
+            if (!noError){
+                System.out.println();
+                System.out.println("输入有误，请重新输入");
+                System.out.println();
+            }
         } while (!noError);
     }
     // 以某位玩家视角，展示某人的牌

@@ -1,0 +1,11 @@
+# Java
+*.class
+*.apk
+
+# IntelliJ
+.idea
+/build
+/out
+
+
+*.iml
